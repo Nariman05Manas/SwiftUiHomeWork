@@ -11,6 +11,12 @@
 		4BA76D3A28EC7FE30064D4AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA76D3928EC7FE30064D4AF /* ContentView.swift */; };
 		4BA76D3C28EC7FE80064D4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA76D3B28EC7FE80064D4AF /* Assets.xcassets */; };
 		4BA76D3F28EC7FE80064D4AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA76D3E28EC7FE80064D4AF /* Preview Assets.xcassets */; };
+		4BA76D4728ED9A130064D4AF /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA76D4628ED9A130064D4AF /* FeedView.swift */; };
+		4BA76D4928ED9B130064D4AF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA76D4828ED9B130064D4AF /* MainView.swift */; };
+		4BA76D4B28ED9B550064D4AF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA76D4A28ED9B550064D4AF /* ProfileView.swift */; };
+		4BA76D4D28ED9B820064D4AF /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA76D4C28ED9B820064D4AF /* RecordView.swift */; };
+		4BA76D4F28ED9BB60064D4AF /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA76D4E28ED9BB60064D4AF /* PlayerView.swift */; };
+		4BA76D5128ED9BD70064D4AF /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA76D5028ED9BD70064D4AF /* VideoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		4BA76D3928EC7FE30064D4AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BA76D3B28EC7FE80064D4AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BA76D3E28EC7FE80064D4AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BA76D4628ED9A130064D4AF /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		4BA76D4828ED9B130064D4AF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4BA76D4A28ED9B550064D4AF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4BA76D4C28ED9B820064D4AF /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		4BA76D4E28ED9BB60064D4AF /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		4BA76D5028ED9BD70064D4AF /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 		4BA76D3628EC7FE30064D4AF /* HomeWorkSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				4BA76D4528ED99D70064D4AF /* TabBar */,
 				4BA76D3728EC7FE30064D4AF /* HomeWorkSwiftUiApp.swift */,
 				4BA76D3928EC7FE30064D4AF /* ContentView.swift */,
 				4BA76D3B28EC7FE80064D4AF /* Assets.xcassets */,
@@ -65,6 +78,19 @@
 				4BA76D3E28EC7FE80064D4AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BA76D4528ED99D70064D4AF /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4BA76D4628ED9A130064D4AF /* FeedView.swift */,
+				4BA76D4828ED9B130064D4AF /* MainView.swift */,
+				4BA76D4A28ED9B550064D4AF /* ProfileView.swift */,
+				4BA76D4C28ED9B820064D4AF /* RecordView.swift */,
+				4BA76D4E28ED9BB60064D4AF /* PlayerView.swift */,
+				4BA76D5028ED9BD70064D4AF /* VideoView.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +164,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BA76D3A28EC7FE30064D4AF /* ContentView.swift in Sources */,
+				4BA76D4D28ED9B820064D4AF /* RecordView.swift in Sources */,
+				4BA76D4F28ED9BB60064D4AF /* PlayerView.swift in Sources */,
+				4BA76D4928ED9B130064D4AF /* MainView.swift in Sources */,
+				4BA76D5128ED9BD70064D4AF /* VideoView.swift in Sources */,
+				4BA76D4B28ED9B550064D4AF /* ProfileView.swift in Sources */,
+				4BA76D4728ED9A130064D4AF /* FeedView.swift in Sources */,
 				4BA76D3828EC7FE30064D4AF /* HomeWorkSwiftUiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct HomeWorkSwiftUiApp: App {
+struct SwiftUIProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(isAlertPresented: false, value: 10)
         }
     }
 }
